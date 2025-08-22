@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, HeartPulse, BellRing, Robot, Loader2 } from 'lucide-react';
+import { Sparkles, HeartPulse, BellRing, Loader2 } from 'lucide-react';
 
 // Mock Data - In a real application, this would come from APIs/databases
 const mockTickets = [
@@ -92,7 +92,8 @@ const mockLogCenterErrors = [
 const Header = () => (
   <header className="bg-gradient-to-r from-purple-600 to-indigo-700 text-white p-6 rounded-t-xl shadow-lg">
     <h1 className="text-3xl font-bold text-center flex items-center justify-center gap-3">
-      <Robot className="h-8 w-8" /> AMS AI Assistant
+      {/* <Robot className="h-8 w-8" /> AMS AI Assistant */}
+      AMS AI Assistant
     </h1>
     <p className="text-center text-purple-100 mt-2">Empowering your RUN Team with intelligent automation</p>
   </header>
@@ -520,7 +521,8 @@ const AutomatedActions = () => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md">
       <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
-        <Robot className="h-6 w-6 text-purple-500" /> Automated Actions (Demonstration)
+        {/* <Robot className="h-6 w-6 text-purple-500" /> Automated Actions (Demonstration) */}
+        Automated Actions (Demonstration)
       </h2>
       <p className="text-gray-700 mb-4">
         The AI Agent can automate routine setup tasks. Below, we simulate the steps it would execute.
