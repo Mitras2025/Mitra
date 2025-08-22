@@ -571,7 +571,7 @@ const App = () => {
           <TicketRAG />
           <HealthCheck />
           <AlertsReminders />
-          <AutomatedActions />
+          // <AutomatedActions />
         </main>
       </div>
     </div>
